@@ -1,0 +1,26 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .bay-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    animation: shake 0.5s infinite; 
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translate(-2px, 2px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translate(2px, -2px);
+    }
+  }
+  

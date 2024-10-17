@@ -1,0 +1,23 @@
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e0 #edf2f7;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #cbd5e0;
+    border-radius: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #edf2f7;
+  }
+  
+  .no-scrollbar {
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  
